@@ -11,36 +11,43 @@ html {
   background-position: center;
   background-attachment: fixed;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   text-align: center;
-  padding: 100px;
+  padding: 50px;
   background-color: rgba(255, 255, 255, 0.8);
-  color: #596266;
-  /* Slate Gray */
+  color: #596266; /* Slate Gray */
   border-radius: 10px;
-  margin: 0 auto;
   max-width: 800px;
 }
 
-h1 {
-  font-size: 3em;
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   margin-bottom: 20px;
-  color: #4a6b8f;
-  /* Dusty Blue */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #4a6b8f; /* Dusty Blue */
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-bottom: 30px;
 }
 
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #7d8b6a;
-  /* Muted Green */
+  background-color: #7d8b6a; /* Muted Green */
   color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
@@ -49,6 +56,5 @@ p {
 }
 
 .btn:hover {
-  background-color: #a49e94;
-  /* Cool Taupe */
+  background-color: #a49e94; /* Cool Taupe */
 }
